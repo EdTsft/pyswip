@@ -32,14 +32,14 @@ from distutils.core import setup
 
 
 setup(name="pyswip",
-      version="0.2.4",
+      version="0.2.5",
       url="http://code.google.com/p/pyswip/",
       download_url="http://code.google.com/p/pyswip/downloads/list",
       author="Yuce Tekol",
       author_email="yucetekol@gmail.com",
       description="PySWIP enables querying SWI-Prolog in your Python programs.",
       long_description="""
-PySWIP 0.2.4
+PySWIP 0.2.5
 ============
 
 PySWIP is a Python - SWI-Prolog bridge enabling to query SWI-Prolog

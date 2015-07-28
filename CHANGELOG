@@ -1,6 +1,10 @@
 PySWIP CHANGELOG
 ================
 
++ 0.2.5
+  * Incorporated Swen Wenzel's update of PySWIP to Python3
+  * Added patch making Functor's __str__ match the corresponding Prolog term.
+
 + 0.2.4
 
   * Maintenance release of PySWIP
