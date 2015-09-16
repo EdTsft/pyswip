@@ -385,7 +385,7 @@ def getString(t):
     slen = c_int()
     s = c_char_p()
     if PL_get_string_chars(t, byref(s), byref(slen)):
-        return s.value
+        return s.value.decode()
     else:
         raise InvalidTypeError("string")
 
